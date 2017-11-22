@@ -1,0 +1,17 @@
+{
+  "name": "apicklidemo",
+  "version": "0.0.1",
+  "scripts": {
+    "test": "mkdir report & node node_modules\\cucumber\\bin\\cucumber.js -f json:report/cucumber_report.json & npm run report",
+    "report": "node generate_html_report.js",
+    "clean": "rmdir report /q /s"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "apickli": "^2.0.0",
+    "chai": "^4.1.2",
+    "cucumber": "^3.1.0",
+    "cucumber-html-reporter": "^3.0.4",
+    "winston": "^2.4.0"
+  }
+}

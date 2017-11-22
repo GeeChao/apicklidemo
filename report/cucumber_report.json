@@ -1,0 +1,439 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Comments endpoint demo",
+    "line": 1,
+    "id": "comments-endpoint-demo",
+    "tags": [],
+    "uri": "features\\comments_endpoint_demo.feature",
+    "elements": [
+      {
+        "id": "comments-endpoint-demo;get-request-demo",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "GET request demo",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "CHAO\\WebstormProjects\\apicklidemo\\node_modules\\cucumber\\lib\\support_code_library_builder\\define_helpers.js:137"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "CHAO\\WebstormProjects\\apicklidemo\\node_modules\\cucumber\\lib\\support_code_library_builder\\define_helpers.js:137"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 4,
+            "name": "I GET /comments",
+            "match": {
+              "location": "CHAO\\WebstormProjects\\apicklidemo\\node_modules\\cucumber\\lib\\support_code_library_builder\\define_helpers.js:137"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 57
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 5,
+            "name": "response code should be 200",
+            "match": {
+              "location": "CHAO\\WebstormProjects\\apicklidemo\\node_modules\\cucumber\\lib\\support_code_library_builder\\define_helpers.js:137"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "test step",
+            "match": {
+              "location": "CHAO\\WebstormProjects\\apicklidemo\\node_modules\\cucumber\\lib\\support_code_library_builder\\define_helpers.js:137"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 11
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "CHAO\\WebstormProjects\\apicklidemo\\node_modules\\cucumber\\lib\\support_code_library_builder\\define_helpers.js:137"
+            },
+            "result": {
+              "status": "passed"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "description": "  As an automation tester,\n  I want to learn how to use Apickli,\n  So that I can automate my REST-API tests.",
+    "keyword": "Feature",
+    "name": "Posts endpoint demo",
+    "line": 1,
+    "id": "posts-endpoint-demo",
+    "tags": [],
+    "uri": "features\\posts_endpoint_demo.feature",
+    "elements": [
+      {
+        "id": "posts-endpoint-demo;get-request-demo",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "GET request demo",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "CHAO\\WebstormProjects\\apicklidemo\\node_modules\\cucumber\\lib\\support_code_library_builder\\define_helpers.js:137"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "CHAO\\WebstormProjects\\apicklidemo\\node_modules\\cucumber\\lib\\support_code_library_builder\\define_helpers.js:137"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "I GET /posts",
+            "match": {
+              "location": "CHAO\\WebstormProjects\\apicklidemo\\node_modules\\cucumber\\lib\\support_code_library_builder\\define_helpers.js:137"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 25
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "response code should be 200",
+            "match": {
+              "location": "CHAO\\WebstormProjects\\apicklidemo\\node_modules\\cucumber\\lib\\support_code_library_builder\\define_helpers.js:137"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "response body path $. should be of type array",
+            "match": {
+              "location": "CHAO\\WebstormProjects\\apicklidemo\\node_modules\\cucumber\\lib\\support_code_library_builder\\define_helpers.js:137"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "CHAO\\WebstormProjects\\apicklidemo\\node_modules\\cucumber\\lib\\support_code_library_builder\\define_helpers.js:137"
+            },
+            "result": {
+              "status": "passed"
+            }
+          }
+        ]
+      },
+      {
+        "id": "posts-endpoint-demo;post-request-demo",
+        "keyword": "Scenario",
+        "line": 11,
+        "name": "POST request demo",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "CHAO\\WebstormProjects\\apicklidemo\\node_modules\\cucumber\\lib\\support_code_library_builder\\define_helpers.js:137"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "CHAO\\WebstormProjects\\apicklidemo\\node_modules\\cucumber\\lib\\support_code_library_builder\\define_helpers.js:137"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 12,
+            "name": "I set Content-Type header to application/json",
+            "match": {
+              "location": "CHAO\\WebstormProjects\\apicklidemo\\node_modules\\cucumber\\lib\\support_code_library_builder\\define_helpers.js:137"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "I set body to {\"userId\": 1,\"id\": 999,\"title\": \"STAG TEST\",\"body\": \"apickli demo\"}",
+            "match": {
+              "location": "CHAO\\WebstormProjects\\apicklidemo\\node_modules\\cucumber\\lib\\support_code_library_builder\\define_helpers.js:137"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 14,
+            "name": "I POST to /posts",
+            "match": {
+              "location": "CHAO\\WebstormProjects\\apicklidemo\\node_modules\\cucumber\\lib\\support_code_library_builder\\define_helpers.js:137"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 523
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 15,
+            "name": "response code should be 201",
+            "match": {
+              "location": "CHAO\\WebstormProjects\\apicklidemo\\node_modules\\cucumber\\lib\\support_code_library_builder\\define_helpers.js:137"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "response body should be valid json",
+            "match": {
+              "location": "CHAO\\WebstormProjects\\apicklidemo\\node_modules\\cucumber\\lib\\support_code_library_builder\\define_helpers.js:137"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "CHAO\\WebstormProjects\\apicklidemo\\node_modules\\cucumber\\lib\\support_code_library_builder\\define_helpers.js:137"
+            },
+            "result": {
+              "status": "passed"
+            }
+          }
+        ]
+      },
+      {
+        "id": "posts-endpoint-demo;scenario-variable-injection",
+        "keyword": "Scenario",
+        "line": 18,
+        "name": "Scenario variable injection",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "CHAO\\WebstormProjects\\apicklidemo\\node_modules\\cucumber\\lib\\support_code_library_builder\\define_helpers.js:137"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "CHAO\\WebstormProjects\\apicklidemo\\node_modules\\cucumber\\lib\\support_code_library_builder\\define_helpers.js:137"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 19,
+            "name": "I store the value(s) {\"userId\": 1} as body in scenario scope",
+            "match": {
+              "location": "CHAO\\WebstormProjects\\apicklidemo\\node_modules\\cucumber\\lib\\support_code_library_builder\\define_helpers.js:137"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 20,
+            "name": "I POST to /posts",
+            "match": {
+              "location": "CHAO\\WebstormProjects\\apicklidemo\\node_modules\\cucumber\\lib\\support_code_library_builder\\define_helpers.js:137"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 533
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 21,
+            "name": "response code should be 201",
+            "match": {
+              "location": "CHAO\\WebstormProjects\\apicklidemo\\node_modules\\cucumber\\lib\\support_code_library_builder\\define_helpers.js:137"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 22,
+            "name": "response body should be valid json",
+            "match": {
+              "location": "CHAO\\WebstormProjects\\apicklidemo\\node_modules\\cucumber\\lib\\support_code_library_builder\\define_helpers.js:137"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "CHAO\\WebstormProjects\\apicklidemo\\node_modules\\cucumber\\lib\\support_code_library_builder\\define_helpers.js:137"
+            },
+            "result": {
+              "status": "passed"
+            }
+          }
+        ]
+      },
+      {
+        "id": "posts-endpoint-demo;validate-against-schema",
+        "keyword": "Scenario",
+        "line": 24,
+        "name": "Validate against schema",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "CHAO\\WebstormProjects\\apicklidemo\\node_modules\\cucumber\\lib\\support_code_library_builder\\define_helpers.js:137"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "CHAO\\WebstormProjects\\apicklidemo\\node_modules\\cucumber\\lib\\support_code_library_builder\\define_helpers.js:137"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 25,
+            "name": "I GET /posts",
+            "match": {
+              "location": "CHAO\\WebstormProjects\\apicklidemo\\node_modules\\cucumber\\lib\\support_code_library_builder\\define_helpers.js:137"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 23
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 26,
+            "name": "response body should be valid according to schema file posts.schema",
+            "match": {
+              "location": "CHAO\\WebstormProjects\\apicklidemo\\node_modules\\cucumber\\lib\\support_code_library_builder\\define_helpers.js:137"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 1,
+              "error_message": "Error: stepContext: \ntestOutput: \n  message: ENOENT: no such file or directory, open 'C:\\Users\\GEE CHAO\\WebstormProjects\\apicklidemo\\posts.schema'\n  stack: \n    - Error: ENOENT: no such file or directory, open 'C:\\Users\\GEE CHAO\\WebstormProjects\\apicklidemo\\posts.schema'\n    at Function.<anonymous> (C:\\Users\\GEE CHAO\\WebstormProjects\\apicklidemo\\node_modules\\cucumber\\lib\\user_code_runner.js:107:21)\n    at Generator.throw (<anonymous>)\n    at Generator.tryCatcher (C:\\Users\\GEE CHAO\\WebstormProjects\\apicklidemo\\node_modules\\bluebird\\js\\release\\util.js:16:23)\n    at PromiseSpawn._promiseRejected (C:\\Users\\GEE CHAO\\WebstormProjects\\apicklidemo\\node_modules\\bluebird\\js\\release\\generators.js:107:10)\n    at Promise._settlePromise (C:\\Users\\GEE CHAO\\WebstormProjects\\apicklidemo\\node_modules\\bluebird\\js\\release\\promise.js:576:26)\n    at Promise._settlePromise0 (C:\\Users\\GEE CHAO\\WebstormProjects\\apicklidemo\\node_modules\\bluebird\\js\\release\\promise.js:614:10)\n    at Promise._settlePromises (C:\\Users\\GEE CHAO\\WebstormProjects\\apicklidemo\\node_modules\\bluebird\\js\\release\\promise.js:689:18)\n    at Async._drainQueue (C:\\Users\\GEE CHAO\\WebstormProjects\\apicklidemo\\node_modules\\bluebird\\js\\release\\async.js:133:16)\n    at Async._drainQueues (C:\\Users\\GEE CHAO\\WebstormProjects\\apicklidemo\\node_modules\\bluebird\\js\\release\\async.js:143:10)\n    at Immediate.Async.drainQueues (C:\\Users\\GEE CHAO\\WebstormProjects\\apicklidemo\\node_modules\\bluebird\\js\\release\\async.js:17:14)\n    at runCallback (timers.js:789:20)\n    at tryOnImmediate (timers.js:751:5)\n    at processImmediate [as _immediateCallback] (timers.js:722:5)"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "CHAO\\WebstormProjects\\apicklidemo\\node_modules\\cucumber\\lib\\support_code_library_builder\\define_helpers.js:137"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
