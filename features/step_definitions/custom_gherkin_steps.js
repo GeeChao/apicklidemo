@@ -9,6 +9,7 @@ defineSupportCode(function({Given, When, Then}) {
     });
 
     Then(/^check request and response/, function () {
+        //For validation steps, you can access the http response via the apickli object and write your custom steps to assert it.
         logger.info("--------------------------------------------------------------------------------");
         logger.info(">>>>> REQUEST BODY:", this.apickli.requestBody);
         logger.info("--------------------------------------------------------------------------------");

@@ -1,5 +1,7 @@
 # Demo of Apickli for STAG (Software test automation group)
 
+https://reqres.in/ Would have probably been a better site to demo this framework with.
+
 ## JSON schema generator - Generate JSON:Schema - https://jsonschema.net/#/editor
 
 #### GIVEN
